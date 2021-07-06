@@ -48,7 +48,7 @@ public class TypingGUI extends Application {
 						if(timeNumber == 0) {
 							System.out.println("WPM: "+ charsTyped/5);
 							System.out.println("Accuracy: " + countCorrect/total + "%");
-							myWord.setText("WPM: " + charsTyped/5 + " " + String.format("%.0f%%", 100*countCorrect/total) + " accuracy");
+							myWord.setText("WPM: " + charsTyped/5 + " Accuracy: " + String.format("%.0f%%", 100*countCorrect/total));
 
 						}
 						
